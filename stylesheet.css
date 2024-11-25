@@ -1,0 +1,1056 @@
+@charset "UTF-8";
+
+/*--------Text-------*/
+footer {
+    font-size: small;
+    position: relative;
+    text-align: center;
+    padding: 10%;
+    
+}
+
+body {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    outline: 2px solid darkred;
+}
+
+h1 {
+padding-top: 50px;
+text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*----Buttoms--*/
+button {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    width: 1200px;
+    background-color: rgb(57, 79, 94);
+    box-sizing: border-box;
+    z-index: 1000;
+    }
+
+a {
+    background-color:  #3498DB;;
+    color: blue;
+}
+
+
+/*--------Nav Bar-------*/
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown-img {
+    width: 40px; 
+    height: auto; 
+    text-decoration: none;
+}
+
+.dropdown-content {
+    text-decoration: none;
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    background-color: blue; 
+    display: flex; 
+    flex-direction: row; 
+    padding: 0;
+    list-style-type: none;
+    z-index: 1000;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+.dropdown-content ul,li {
+    text-align: center;
+    padding: 8px 16px;
+    white-space: nowrap;
+}
+
+.dropdown-content ul,li ul,a {
+    color: white;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.dropdown-content ul,li {
+    background-color: white;
+    text-decoration: none;
+}
+
+.dropdown-content ul,li a:hover {
+    color: white;
+    background-color: #3498DB;
+    text-decoration: none;
+}
+
+
+.dropdown-content ul,li:hover {
+    color: white;
+    background-color: #3498DB;
+    text-decoration: none;
+}
+
+.dropdown-content ul,li a:hover {
+    background-color: #3498DB;
+    color: blue; 
+}
+
+.dropdown-content.show {
+    display: block;  
+    text-decoration: none;
+}
+
+.dropdown-content ul,li:hover {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-content ul,li{
+    background-color: blue;
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+    text-decoration: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.dropdown-content ul,a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content ul,a:hover {
+    background-color: #ddd;
+    text-decoration: none;
+}
+
+.show {
+    text-decoration: none;
+    display:block;
+} 
+
+
+.HPS-Symbol img{
+    height: 80px;
+    width: auto;
+    margin-right: 1rem;
+    position: fixed;
+}   
+
+/*-----Hero Image---*/
+.hero {
+    height: 50%;
+    padding: 200px;
+    padding-top: 70px;
+}
+
+.HPS_Symbol {
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.hero:hover {
+    transform: none;
+}
+
+.hero-text {
+    text-align: center;
+    bottom: 23%;
+    left: 50%;
+    color: white;
+}
+
+/*--------Images-------*/
+img {
+    padding: 8px;
+    border-radius: 12px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#sign {
+    width: 50%;
+}
+
+/*------Video-----*/
+video {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+}
+
+/*--------Class/Id Adjustments-------*/
+.my_work {
+    margin-top: 100px;
+    height: 480px;
+    margin-bottom: 200px;
+}
+
+#equipment-img {
+    width: 100px;
+}
+
+iframe {
+    width: 1080px;
+    height: 607.5px;
+}
+
+.video {
+    position: relative; 
+    top: 20px; 
+    left: 20px; 
+    width: 100%; 
+    max-width: 640px;
+    height: 0; 
+    padding-bottom: 56.25%; 
+    overflow: hidden; 
+}
+
+.video iframe {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border: none; 
+}
+
+.DominicRedinboBSA {
+    width: 200px;
+    height: 100%;
+}
+
+/*--------Buttons-------*/
+.button {
+    background-color: aqua;
+    Border: none; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    font-size: 18px;
+    margin: 6px 3px;
+    padding: 10px 40px;
+    cursor: pointer;   
+    border-width: 15px; 
+    cursor: pointer; 
+}
+
+.button:hover {
+    background-color: blue;
+    color: white; 
+}
+
+
+/*-------Containers/Grids--------*/
+/* Desktop: Large screens (1000px and up) */
+@media (min-width: 1000px) {
+    #containerOW1 {
+        display: grid;
+        place-content: center;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "MountainView       Rocks           RitzLightSign   Stadium"
+        "PinkFlower         Medows          MountainSlope   RainbowShadowMan" "LightSwirls RedAndBlueSunset   MountainSunset  SilhouetteSunset" "LightUpTreeHouse ForestTreeHouse    LightPainting  lightpainting";
+    }
+}
+
+/* Tablet: Medium screens (800px to 1000px) */
+@media (max-width: 1000px) and (min-width: 800px) {
+    #containerOW1 {
+        display: grid;
+        place-content: center;
+        grid-template-rows: repeat(7, 1fr);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "PinkFlower         Medows" 
+            "MountainSlope      LightSwirls"
+            "MountainView       Rocks" 
+            "RitzLightSign      Stadium"
+            "RedAndBlueSunset   MountainSunset"
+            "SilhouetteSunset   LightUpTreeHouse"
+            "ForestTreeHouse    LightPainting";
+    }
+}
+
+/* Mobile: Small screens (600px and below) */
+@media (max-width: 600px) {
+    #containerOW1 {
+        display: grid;
+        place-content: center;
+        grid-template-rows: repeat(14, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "PinkFlower" 
+            "Medows" 
+            "MountainSlope"
+            "LightSwirls"
+            "MountainView"
+            "Rocks" 
+            "RitzLightSign"
+            "Stadium"
+            "RedAndBlueSunset" 
+            "MountainSunset"
+            "SilhouetteSunset" 
+            "LightUpTreeHouse"
+            "ForestTreeHouse" 
+            "LightPainting";
+    }
+}
+    .PinkFlower {
+        grid-area: PinkFlower;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .Medows {
+        grid-area: Medows;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .MountainSlope {
+        grid-area: MountainSlope;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .LightSwirls {
+        grid-area: LightSwirls;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .MountainView {
+        grid-area: MountainView;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .RainbowShadowMan {
+        grid-area: RainbowShadowMan;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .Rocks {
+        grid-area: Rocks;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .RitzLightSign {
+        grid-area: RitzLightSign;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .Stadium {
+        grid-area: Stadium; 
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .RedAndBlueSunset {
+        grid-area: RedAndBlueSunset;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .MountainSunset {
+        grid-area: MountainSunset;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .SilhouetteSunset {
+        grid-area: SilhouetteSunset;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .LightUpTreeHouse {
+        grid-area: LightUpTreeHouse;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .ForestTreeHouse {
+        grid-area: ForestTreeHouse;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .LightPainting {
+        grid-area: LightPainting ;
+        width: 250px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+
+/* Default Styles - for large screens (Desktop) */
+#containerAU {
+    display: grid;
+    padding: 5px;
+    align-items: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "camera-1867184_1280 p1"
+    "p2 photos-256887_1280"
+    "editing-1141505_1280 p3"
+    "p4 camera-5640346_1280";
+}
+
+.camera-1867184_1280, .photos-256887_1280, .editing-1141505_1280, .camera-5640346_1280 {
+    width: 100%;
+    max-width: 450px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.p1, .p2, .p3, .p4 {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Tablet: Medium screens (800px to 1000px) */
+@media (min-width: 800px) {
+    #containerAU {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "camera-1867184_1280 p1"
+        "p2 photos-256887_1280"
+        "editing-1141505_1280 p3"
+        "p4 camera-5640346_1280";
+    }
+}
+
+/* Mobile: Small screens (600px and below) */
+@media (max-width: 940px) {
+    #containerAU {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "camera-1867184_1280"
+        "p1"
+        "photos-256887_1280"
+        "p2"
+        "editing-1141505_1280"
+        "p3"
+        "camera-5640346_1280"
+        "p4";
+    }
+}
+    .camera-1867184_1280, .photos-256887_1280, .editing-1141505_1280, .camera-5640346_1280 {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    .p1, .p2, .p3, .p4 {
+        width: 100%;
+        padding: 15px;
+    }
+
+
+    #containerOS {
+        display: grid;
+        padding: 5px;
+        align-items: center;
+        text-align: center;
+        place-content: center;
+        grid-template-rows: repeat(8, auto);  
+        grid-template-columns: repeat(3, 1fr);  
+        grid-template-areas: 
+            "camera-1867184_1280 camera-5640346_1280 camera-7230748_1280"
+            "text1 text2 text3"
+            "photography-6466671_1280 photos-256887_1280 drone-3565438_1280"
+            "text4 text5 text6"
+            "drone-5644755_1280 editing-1141505_1280 editing-7320119_1280"
+            "text7 text8 text9"
+            "editing-7320126_1280 mic-1867121_1280 turntable-1337986_1280"
+            "text10 text11 text12";
+    }
+    
+    @media (max-width: 1024px) {
+        #containerOS {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas:
+                "camera-1867184_1280 camera-5640346_1280"
+                "text1 text2"
+                "photography-6466671_1280 photos-256887_1280"
+                "text3 text4"
+                "drone-5644755_1280 editing-1141505_1280"
+                "text5 text6"
+                "editing-7320126_1280 mic-1867121_1280"
+                "text7 text8";
+        }
+    }
+    
+    @media (max-width: 768px) {
+        #containerOS {
+            grid-template-columns: 1fr; 
+            grid-template-areas:
+                "camera-1867184_1280"
+                "text1"
+                "camera-5640346_1280"
+                "text2"
+                "camera-7230748_1280"
+                "text3"
+                "photography-6466671_1280"
+                "photos-256887_1280"
+                "drone-3565438_1280"
+                "text4"
+                "drone-5644755_1280"
+                "editing-1141505_1280"
+                "editing-7320119_1280"
+                "text5"
+                "editing-7320126_1280"
+                "mic-1867121_1280"
+                "turntable-1337986_1280"
+                "text6"
+                "text7"
+                "text8"
+                "text9"
+                "text10"
+                "text11"
+                "text12";
+        }
+    }
+    
+    @media (max-width: 480px) {
+        #containerOS {
+            grid-template-columns: 1fr; 
+            grid-template-areas:
+                "camera-1867184_1280"
+                "text1"
+                "camera-5640346_1280"
+                "text2"
+                "camera-7230748_1280"
+                "text3"
+                "photography-6466671_1280"
+                "photos-256887_1280"
+                "drone-3565438_1280"
+                "text4"
+                "drone-5644755_1280"
+                "editing-1141505_1280"
+                "editing-7320119_1280"
+                "text5"
+                "editing-7320126_1280"
+                "mic-1867121_1280"
+                "turntable-1337986_1280"
+                "text6"
+                "text7"
+                "text8"
+                "text9"
+                "text10"
+                "text11"
+                "text12";
+        }
+    }    .camera-1867184_1280 {
+        grid-area: camera-1867184_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text1 {
+        grid-area: text1;
+        padding: 5px;
+    }
+
+    .camera-5640346_1280 {
+        grid-area: camera-5640346_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text2 {
+        grid-area: text2;
+        padding: 5px;
+    }
+
+    .camera-7230748_1280 {
+        grid-area: camera-7230748_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+        padding: 5px;
+    }
+
+    .text3 {
+        grid-area: text3;
+        padding: 5px;
+    }
+
+    .photography-6466671_1280 {
+        grid-area: photography-6466671_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text4 {
+        grid-area: text4;
+        padding: 5px;
+    }
+
+    .photos-256887_1280 {
+        grid-area: photos-256887_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text5 {
+        grid-area: text5;
+        padding: 5px;
+    }
+
+    .drone-3565438_1280 {
+        grid-area: drone-3565438_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text6 {
+        grid-area: text6;
+        padding: 5px;
+    }
+
+    .drone-5644755_1280 {
+        grid-area: drone-5644755_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text7 {
+        grid-area: text7;
+        padding: 5px;
+    }
+
+    .editing-1141505_1280 {
+        grid-area: editing-1141505_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text8 {
+        grid-area: text8;
+        padding: 5px;
+    }
+
+    .editing-7320119_1280 {
+        grid-area: editing-7320119_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text9 {
+        grid-area: text9;
+        padding: 5px;
+    }
+
+    .editing-7320126_1280 {
+        grid-area: editing-7320126_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text10 {
+        grid-area: text10;
+        padding: 5px;
+    }
+
+    .mic-1867121_1280 {
+        grid-area: mic-1867121_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text11 {
+        grid-area: text11;
+        padding: 5px;
+    }
+
+    .turntable-1337986_1280 {
+        grid-area: turntable-1337986_1280;
+        object-fit: contain;
+        width: 350px;
+        padding: 5px;
+    }
+
+    .text12 {
+        grid-area: text12;
+        padding: 5px;
+    }
+
+    .containerI {
+        display: grid;
+        padding: 5px;
+        align-items: center;
+        grid-template-rows: 100px auto;
+        grid-template-columns: 300px 400px;
+        grid-template-areas:    
+            "head               head"
+            "DominicRedinboBSA  founder";
+    }
+    
+    .head {
+        grid-area: head;
+        text-align: center;
+        font-size: 1.5rem; 
+    }
+    
+    .DominicRedinboBSA {
+        grid-area: DominicRedinboBSA;
+        width: 100%; 
+        height: auto; 
+        max-width: 100%; 
+    }
+    
+    .founder {
+        grid-area: founder;
+        text-align: left;
+        padding-left: 20px;
+        width: 100%; 
+        height: auto;
+    }
+    
+@media (min-width: 770px) { 
+    .containerI {
+        grid-template-rows: auto auto;
+        grid-template-columns:  auto; 
+        grid-template-areas:
+            "head   head"
+            "DominicRedinboBSA founder"; 
+    }
+
+@media (max-width: 768px) { 
+    .containerI {
+        grid-template-rows:  auto auto auto;
+        grid-template-columns:  auto; 
+        grid-template-areas:
+            "head"
+            "DominicRedinboBSA"
+            "founder"; 
+    }
+
+    .head {
+        padding: 10px;
+        font-size: 1.25rem; 
+    }
+
+    .DominicRedinboBSA {
+        width: 100%; 
+    }
+
+    .founder {
+        grid-area: founder;
+        text-align: left;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        padding-left: 10px; 
+        width: 100%; 
+    }
+}
+
+    
+    @media (min-width: 1000px) {
+.containerI2 {
+    display: grid;
+    padding: 5px;
+    align-content: center;
+    grid-template-rows:  auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-areas:    
+    'camera     photos      photography'
+    'button1    button2     button3'
+    ;
+}
+    }
+
+    @media (max-width: 1000px) and (min-width: 800px) {
+.containerI2 {
+    display: grid;
+    padding: 5px;
+    align-content: center;
+    grid-template-rows:  auto auto;
+    grid-template-columns:  auto auto auto;
+    grid-template-areas:    
+    'camera button1' 
+    'photos button2'
+    'photography button3'
+    ;
+}
+    }
+
+    @media (max-width: 800px) {
+.containerI2 {
+    display: grid;
+    padding: 5px;
+    align-content: center;
+    grid-template-rows: auto;
+    grid-template-columns:  auto auto auto auto auto auto;
+    grid-template-areas:    
+    'camera'
+    'button1'
+    'photos'
+    'button2'
+    'photography'
+    'button3'
+    ;
+}
+    }
+
+.button1 {
+    grid-area: button1;
+    background-color: rgb(57, 79, 94);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex; 
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.button2 {
+    grid-area: button2;
+    background-color: rgb(57, 79, 94);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;  
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.button3 {
+    grid-area: button3;
+    background-color: rgb(57, 79, 94);
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex; 
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.camera {
+    grid-area: camera;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.photos {
+    grid-area: photos;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.photography {
+    grid-area: photography;
+    padding: 20px;
+    object-fit: cover;
+}
+    
+
+
+
+/* Media query for small screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    #containerOW2 {
+        grid-template-columns: 1fr; 
+        grid-template-areas: 
+            "DominicCamera"
+            "more"; 
+    }
+
+    .more {
+        text-align: center;
+    }
+}
+
+
+#containerC {
+    display: grid;
+    padding: 5px;
+    align-items: center;
+    padding: 25px;
+    padding-top: 10px;
+    grid-template-rows: auto auto auto auto;  
+    grid-template-columns: repeat(4, 1fr);  
+    grid-template-areas: 
+        "hps_building_front hps_building_side"
+        "empty empty"
+        "Contact Contact"
+        "form form";
+}
+
+@media (max-width: 1024px) {
+    #containerC {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns:  auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:
+            "hps_building_front hps_building_side"
+            "Contact Contact"
+            "form form";
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 481px) {
+    #containerC {
+        grid-template-columns:  auto; 
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "hps_building_front"
+            "hps_building_side"
+            "Contact"
+            "form";
+    }
+}
+
+@media (max-width: 480px) {
+    #containerC {
+        grid-template-columns:  auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+            "hps_building_front"
+            "hps_building_side"
+            "Contact"
+            "form";
+    }
+}    
+    .hps_building_front {
+       grid-area: hps_building_front;
+       padding: 5px; 
+       width: 250px;
+        height: 100%;
+    }
+
+    .hps_building_side {
+        grid-area: hps_building_side;
+        padding: 5px;
+        width: 250px;
+        height: 100%;
+    }
+
+    .Contact {
+        grid-area: Contact;
+        text-align: left;
+    }
+
+    .form {
+        grid-area: form;
+        padding: 5px;
+        background-color: rgb(57, 79, 94);
+        background-position: center;
+        background-size: contain;
+        border-radius: 3%;
+        padding: 5px;
+    }
+
+    .empty {
+        grid-area: empty;
+    }
+}
+
